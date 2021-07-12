@@ -10,16 +10,18 @@ description: A new Flutter project.
 version: 1.0.0+1
 
 environment:
-  sdk: ">=2.12.0 <3.0.0" # ">=2.0.0-dev.68.0 <3.0.0"
+  sdk: ">=2.0.0-dev.68.0 <3.0.0" 
 
 dependencies:
   flutter:
     sdk: flutter
-  duration: ^3.0.6
-  firebase_auth: ^2.0.0
-  google_sign_in: ^5.0.4
-  cloud_firestore: ^2.3.0
-  cupertino_icons: ^1.0.3
+  duration: ^2.0.0
+  firebase_auth: ^0.6.2+1
+  google_sign_in: ^3.2.2
+  cloud_firestore: ^0.8.2+3
+  cupertino_icons: ^0.1.2
+
+ 
 
 dev_dependencies:
   flutter_test:

@@ -7,6 +7,6 @@ import 'package:recipes_app/state_widget.dart';
 //    - RecipesApp
 //        - All other widgets which are able to access the data
 void main() {
-  StateWidget stateWidget = new StateWidget(child:new RecipesApp());
+  StateWidget stateWidget = StateWidget(child: RecipesApp());
   runApp(stateWidget);
 }
